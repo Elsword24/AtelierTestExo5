@@ -1,4 +1,3 @@
-/*
 import javax.persistence.Entity
 import javax.persistence.GeneratedValue
 import javax.persistence.GenerationType
@@ -12,4 +11,4 @@ class Task {
     private val title: String? = null
     private val description: String? = null
     private val completed = false // getters and setters
-}*/
+}

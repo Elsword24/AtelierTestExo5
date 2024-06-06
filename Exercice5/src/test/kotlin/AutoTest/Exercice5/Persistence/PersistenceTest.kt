@@ -1,4 +1,3 @@
-/*
 import org.junit.jupiter.api.Test
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc
@@ -44,4 +43,4 @@ class TaskPersistenceTest {
             .andExpect(jsonPath("$.description").value("Task to test persistence"))
             .andExpect(jsonPath("$.completed").value(false))
     }
-}*/
+}
